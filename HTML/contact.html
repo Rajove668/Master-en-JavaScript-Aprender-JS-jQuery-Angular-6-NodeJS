@@ -11,31 +11,37 @@
 </head>
 
 <body>
+    <!-- Encabezado -->
     <h1>Ejercicio Completo</h1>
-    <ol>
-        <li>Inicio</li>
-        <li>Info</li>
-        <li>Contacto</li>
-    </ol>
+    <!-- Menu -->
+    <ul>
+        <li><a href="index.html" title="Inicio">Inicio</a></li>
+        <li><a href="info.html" title="Info">Info</a></li>
+        <li><a href="contact.html" title="Contacto">Contacto</a></li>
+        <li><a href="https://www.linkedin.com/in/rajove668/" target="_blank">Linkedin</a></li>
+    </ul>
+    <hr/>
+    <!-- Contenido de contact.html -->
     <h2>Segundo Titulo</h2>
     <form action="" method="GET">
         <p>
-            <label for="Nombre">Nombre: </label>
+            <label for="Nombre">Nombre: </label><br>
             <input type="text" name="Nombre" id="" placeholder="Escribe tu Nombre">
         </p>
         <p>
-            <label for="descripcion">Descripción</label>
-            <textarea name="descripcion" id="" cols="30" rows="4"></textarea>
+            <label for="Bibliografia">Bibliografia</label><br>
+            <textarea name="Bibliografia" id="" cols="30" rows="4"></textarea>
         </p>
         <p>
+            <label for="Edad">Edad</label><br>
             <select name="selector" id="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
+                <option value="Adulto">Adulto</option>
+                <option value="Niño">Niño</option>
+                <option value="MayorEdad">Mayor de Edad</option>
             </select>
         </p>
         <p>
-            <input type="submit" value="Enviar Formulario">
+            <input type="submit" value="Enviar">
         </p>
 
     </form>
